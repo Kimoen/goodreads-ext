@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 /**
  * Détecte l’identifiant du Work (workId) par 3 méthodes :
  * 1. Le lien « Show all editions »               (méthode la plus fiable aujourd’hui)
@@ -81,6 +79,10 @@ function showBanner({ ok, text, targetUrl }) {
 
 /* ----------- Programme principal ----------- */
 (async () => {
+    if (typeof browser !== 'undefined') {
+        chrome = browser; // Firefox: redirige vers l'API standard
+    }
+
     try {
         const dl = await waitForElement('.DescList');
         const items = Array.from(dl.querySelectorAll('.DescListItem'));

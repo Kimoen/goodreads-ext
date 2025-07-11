@@ -4,6 +4,7 @@
     "version": "0.1",
     "description": "Affiche si le livre courant dispose d’une édition française sur Goodreads.",
     "permissions": [
+        "https://www.goodreads.com/*",
         "storage"
     ],
     "host_permissions": [
