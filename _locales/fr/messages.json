@@ -1,0 +1,29 @@
+{
+    "edition_found": {
+        "message": "✅ Édition __LANG__ disponible !"
+    },
+    "edition_not_found": {
+        "message": "❌ Pas d’édition __LANG__ trouvée"
+    },
+    "open_edition": {
+        "message": "Ouvrir l’édition trouvée"
+    },
+    "lang_display_french": {
+        "message": "française"
+    },
+    "lang_display_english": {
+        "message": "anglaise"
+    },
+    "lang_display_german": {
+        "message": "allemande"
+    },
+    "lang_display_spanish": {
+        "message": "espagnole"
+    },
+    "lang_display_italian": {
+        "message": "italienne"
+    },
+    "lang_display_dutch": {
+        "message": "néerlandaise"
+    }
+}

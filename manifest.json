@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Goodreads – Édition française ?",
+    "name": "Goodreads – Local edition?",
     "version": "0.1",
-    "description": "Affiche si le livre courant dispose d’une édition française sur Goodreads.",
+    "default_locale": "en",
+    "description": "Affiche si le livre courant dispose d’une traduction sur Goodreads.",
     "permissions": [
-        "https://www.goodreads.com/*",
         "storage"
     ],
     "host_permissions": [
@@ -22,6 +22,12 @@
         }
     ],
     "action": {
-        "default_title": "Édition FR ?"
+        "default_popup": "popup.html",
+        "default_title": "Paramètres Goodreads"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "goodreads-lang-checker@julian.dev"
+        }
     }
 }

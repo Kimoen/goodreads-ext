@@ -1,0 +1,29 @@
+{
+    "edition_found": {
+        "message": "✅ __LANG__ edition available!"
+    },
+    "edition_not_found": {
+        "message": "❌ No __LANG__ edition found"
+    },
+    "open_edition": {
+        "message": "Open matching edition"
+    },
+    "lang_display_french": {
+        "message": "French"
+    },
+    "lang_display_english": {
+        "message": "English"
+    },
+    "lang_display_german": {
+        "message": "German"
+    },
+    "lang_display_spanish": {
+        "message": "Spanish"
+    },
+    "lang_display_italian": {
+        "message": "Italian"
+    },
+    "lang_display_dutch": {
+        "message": "Dutch"
+    }
+}
