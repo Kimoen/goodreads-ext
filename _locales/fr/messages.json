@@ -25,5 +25,29 @@
     },
     "lang_display_dutch": {
         "message": "néerlandaise"
+    },
+    "popup_title": {
+        "message": "Langue à surveiller"
+    },
+    "save": {
+        "message": "Enregistrer"
+    },
+    "lang_fr": {
+        "message": "Français"
+    },
+    "lang_en": {
+        "message": "Anglais"
+    },
+    "lang_de": {
+        "message": "Allemand"
+    },
+    "lang_es": {
+        "message": "Espagnol"
+    },
+    "lang_it": {
+        "message": "Italien"
+    },
+    "lang_nl": {
+        "message": "Néerlandais"
     }
 }

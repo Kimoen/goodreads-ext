@@ -25,5 +25,29 @@
     },
     "lang_display_dutch": {
         "message": "Dutch"
+    },
+    "popup_title": {
+        "message": "Language to watch"
+    },
+    "save": {
+        "message": "Save"
+    },
+    "lang_fr": {
+        "message": "French"
+    },
+    "lang_en": {
+        "message": "English"
+    },
+    "lang_de": {
+        "message": "German"
+    },
+    "lang_es": {
+        "message": "Spanish"
+    },
+    "lang_it": {
+        "message": "Italian"
+    },
+    "lang_nl": {
+        "message": "Dutch"
     }
 }

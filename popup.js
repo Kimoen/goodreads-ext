@@ -1,6 +1,19 @@
 if (typeof browser !== 'undefined') {
     chrome = browser; // Firefox: redirige vers l'API standard
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('popupTitle').textContent = chrome.i18n.getMessage('popup_title');
+    document.getElementById('saveBtn').textContent = chrome.i18n.getMessage('save');
+    document.getElementById('optFrench').textContent = chrome.i18n.getMessage('lang_fr');
+    document.getElementById('optEnglish').textContent = chrome.i18n.getMessage('lang_en');
+    document.getElementById('optGerman').textContent = chrome.i18n.getMessage('lang_de');
+    document.getElementById('optSpanish').textContent = chrome.i18n.getMessage('lang_es');
+    document.getElementById('optItalian').textContent = chrome.i18n.getMessage('lang_it');
+    document.getElementById('optDutch').textContent = chrome.i18n.getMessage('lang_nl');
+});
+
+
 const select = document.getElementById('languageSelect');
 const saveBtn = document.getElementById('saveBtn');
 
