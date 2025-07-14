@@ -1,12 +1,17 @@
 {
     "manifest_version": 3,
-    "name": "Goodreads – Local edition?",
-    "version": "0.1",
+    "name": "Goodreads Edition Finder",
+    "version": "1.0",
     "default_locale": "en",
-    "description": "Affiche si le livre courant dispose d’une traduction sur Goodreads.",
+    "description": "Quickly check if a Goodreads book is available in your preferred language and jump to its translated edition in one click.",
     "permissions": [
         "storage"
     ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "host_permissions": [
         "https://www.goodreads.com/*"
     ],
@@ -23,7 +28,7 @@
     ],
     "action": {
         "default_popup": "popup.html",
-        "default_title": "Paramètres Goodreads"
+        "default_title": "Goodreads Edition Finder"
     },
     "browser_specific_settings": {
         "gecko": {
